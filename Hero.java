@@ -5,8 +5,8 @@ public class Hero extends AnimatedThing{
     public  boolean monte;
     public  boolean descend;
     public boolean debJeu;
-    public Hero (String fileName, double x, double y) {
-        super(fileName, x, y);
+    public Hero (String fileName, double x, double yr) {
+        super(fileName, x, yr);
     }
     public double getyVitess() {
         return yVitess;
