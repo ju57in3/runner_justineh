@@ -6,11 +6,12 @@ import javafx.scene.input.KeyCode;
 public class GameScene extends Scene {
     // definition des variables
     private final Camera camera;
-    private final StaticThing fin = new StaticThing("file:img/end.png", 400, 400);
+    private final StaticThing fin = new StaticThing("file:img/fin.png", 200, 200);
     private final StaticThing left = new StaticThing("file:img/fond.png",800,600);
-    private final StaticThing right = new StaticThing("file:img/desert.png",800,600);
-    private final Hero perso = new Hero("file:img/heros.png", 300, 0);
+    private final StaticThing right = new StaticThing("file:img/fond.png",800,600);
+    private final Hero perso = new Hero("file:img/heros1.png", 300, 0);
     private final Foe mechant = new Foe("file:img/foe.png", 1000, 10);
+    //protected static StaticThing life =
     private boolean jumpok=true;  // on allow le jump
     public boolean debJeu=true;
     AnimationTimer timer= new AnimationTimer() {
